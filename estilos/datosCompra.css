@@ -1,0 +1,62 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(221, 217, 214);
+}
+#bienvenida{
+    display: block;
+    margin-left: 20px;
+}
+
+.info{
+    background-color: bisque;
+    padding: 20px 50px;
+    font-size: 20px;
+}
+
+#ainicio{
+    position: relative;
+
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 50px;
+    color: #ffffff;
+    padding: 5px 10px;
+    background: #3866f2;
+    cursor: pointer;
+    transition: background-color .5s ease-out;
+}
+#ainicio:hover{
+    background-color: #058205;
+} 
+
+#rowF{
+    position: relative;
+    display:block;
+   
+    top: 100px;
+    background-color: #323030;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+#divDelFooter1{
+    font-size: 20px;
+    background-color: rbg(40,40,40);
+    color: #f2f2f2;
+    padding: 10px;
+}
+
+.footer1 a{
+    background-color: rbg(40,40,40);
+    color: rgb(13, 124, 9);
+    text-decoration: none;
+}
+.footer1 a:hover{
+    background-color: rbg(40,40,40);
+    color: rgb(204, 0, 255);
+    text-decoration: none;
+}
+
+
